@@ -205,25 +205,35 @@ button {
 
 
 /* UPLOAD */
+#title {
+    margin-top: 15%;
+    margin-bottom: 30px;
+}
+
 #error {
     text-align: center;
 }
-.btn {
-    background-color: #ff7100;
-    padding: 10px 24px;
-    margin: 20px;
-    text-align: center;
-    -moz-border-radius: 0px; 
-    -webkit-border-radius: 0px; 
-    border-radius: 0px;
-    font-size: 16px;
-    align-self: center;
+
+#upload {
+    appearance: none;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 5%;
+    background-color: #0072c9;
+    cursor: pointer;
+    font-family: "Sky Text";
+    font-size: 20px;
+    color: white;
+    width: 90px;
+    height:40px;
+    margin-top: 20px;
 }
 
 .custom-file-input {    
     -moz-border-radius: 0px; 
     -webkit-border-radius: 0px; 
-    border-radius: 0px;}
+    border-radius: 0px;
+}
 
 .custom-file-label {
     -moz-border-radius: 0px; 
