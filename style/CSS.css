@@ -2,7 +2,6 @@
 @font-face{font-family:"Sky Text";src:url("//static.skyassets.com/assets/fonts/sky-medium.woff") format("woff");font-weight:bold}
 
 /* GENERAL */
-
 h1 {
     font-size: 60px;
     font-family: "Sky Text";
@@ -18,6 +17,7 @@ h3 {
 h4 {
     font-family: "Sky Text";
 }
+
 p {
     font-family: "Sky Text";
     font-weight: bold;
@@ -214,7 +214,6 @@ button {
         max-width: 20%;
     }
 }
-
 
 /* UPLOAD */
 #title {

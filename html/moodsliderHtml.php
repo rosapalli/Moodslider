@@ -10,6 +10,7 @@ and open the template in the editor.
         <title>Sky | Moodslider</title>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>     
+        <script src="../js/moodslider.js" type="text/javascript"></script>
         <link href="https://www.sky.com/assets/masthead/images/favicon.png" sizes="32x32" rel="icon">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="../style/CSS.css" rel="stylesheet" type="text/css"/>
@@ -78,24 +79,24 @@ and open the template in the editor.
         </div>
         <div class="row" id="programmes">
             <div class="col-2dot4">
-                <img class="programmeImage" id="image1" src="../data/images/noContent.png" alt="">
+                <img class="programmeImage" id="image1" style="width:200px;" src="../data/images/noContent.png" alt="">
                 <h4 class="programmeLabel" id="programme1">No Content</h4>
 
             </div>
             <div class="col-2dot4">
-                <img class="programmeImage"id="image2" src="../data/images/noContent.png" alt="">
+                <img class="programmeImage"id="image2" style="width:200px;" src="../data/images/noContent.png" alt="">
                 <h4 class="programmeLabel" id="programme2">No Content</h4>
             </div>
             <div class="col-2dot4">
-                <img class="programmeImage" id="image3" src="../data/images/noContent.png" alt="">
+                <img class="programmeImage" id="image3" style="width:200px;" src="../data/images/noContent.png" alt="">
                 <h4 class="programmeLabel" id="programme3">No Content</h4>
             </div>
             <div class="col-2dot4">
-                <img class="programmeImage"id="image4" src="../data/images/noContent.png" alt="">
+                <img class="programmeImage"id="image4" style="width:200px;" src="../data/images/noContent.png" alt="">
                 <h4 class="programmeLabel" id="programme4">No Content</h4>
             </div>
             <div class="col-2dot4">
-                <img class="programmeImage" id="image5" src="../data/images/noContent.png" alt="">
+                <img class="programmeImage" id="image5" style="width:200px;" src="../data/images/noContent.png" alt="">
                 <h4 class="programmeLabel" id="programme5">No Content</h4>
             </div>
         </div>
