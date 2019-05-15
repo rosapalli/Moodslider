@@ -1,0 +1,223 @@
+@font-face{font-family:"Sky Text";src:url("//static.skyassets.com/assets/fonts/sky-regular.woff") format("woff")}
+@font-face{font-family:"Sky Text";src:url("//static.skyassets.com/assets/fonts/sky-medium.woff") format("woff");font-weight:bold}
+
+/* GENERAL */
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    text-align: left;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+body {
+    font-family: Sky Text;
+    overflow-x: hidden;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #DCDBDD, white, #DCDBDD); /* Standard syntax (must be last) */
+}
+
+header {
+    background-color: white;
+    box-shadow: 0px 2px 5px #C4C3C6;
+
+}
+
+footer {
+    background-color: white;
+}
+
+/*LAYOUT*/
+.nav-link {
+    font-size: 20px;
+    line-height: 0.8;
+    text-align: left;
+}
+
+#navBar {
+    float: left;
+    padding-left: 0;
+}
+
+#titleBar {
+    font-family: Sky Text;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 30px;
+    line-height: 0.8;
+    font-weight: bold;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/*INDEX*/
+#landing {
+    text-align: left;
+    padding: 20px;
+    color: white;
+    height: 80%;
+    background-image: -webkit-linear-gradient(right, #5400ff,red,#ff7100);
+}
+
+#landingTitle {
+    margin-top: 30px;
+    line-height: 0.8;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+#welcome {
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#index {
+    height: 15%;
+}
+
+button {
+    appearance: none;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 5%;
+    background-color: #0072c9;
+    cursor: pointer;
+    font-family: "Sky Text";
+    font-size: 25px;
+    color: white;
+    width: 170px;
+    height:50px;
+    margin-top: 20px;
+}
+
+/* MOODSLIDER */
+#programmes {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.slidecontainer {
+    padding-top: 20px;
+    background-image: -webkit-linear-gradient(top left,#ff7100 20%,red 50%,#5400ff 80%);
+}
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1; 
+}
+
+/* The slider handle */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 15px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #0072c9;
+    cursor: pointer; /* Cursor on hover */
+}
+
+.emotion {
+    text-align: center;
+    font-size: 20px;    
+}
+
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+@media (min-width: 540px) {
+    .col-sm-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 720px) {
+    .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+
+/* UPLOAD */
+#error {
+    text-align: center;
+}
+.btn {
+    background-color: #ff7100;
+    padding: 10px 24px;
+    margin: 20px;
+    text-align: center;
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px;
+    font-size: 16px;
+    align-self: center;
+}
+
+.custom-file-input {    
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px;}
+
+.custom-file-label {
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px;
+}
+
