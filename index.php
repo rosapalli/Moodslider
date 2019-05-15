@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Moodslider</title>
+        <title>Sky | Welcome to Moodslider</title>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>     
         <link href="https://www.sky.com/assets/masthead/images/favicon.png" sizes="32x32" rel="icon">

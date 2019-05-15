@@ -5,16 +5,26 @@
 
 h1 {
     font-size: 60px;
+    font-family: "Sky Text";
 }
 
 h3 {
+    font-family: "Sky Text";
     text-align: left;
     padding-bottom: 5px;
     margin-top: 30px;
 }
 
+h4 {
+    font-family: "Sky Text";
+}
+p {
+    font-family: "Sky Text";
+    font-weight: bold;
+}
+
 body {
-    font-family: Sky Text;
+    font-family: "Sky Text";
     overflow-x: hidden;
     background-color: white; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, #DCDBDD, white, #DCDBDD); /* Standard syntax (must be last) */
@@ -220,4 +230,3 @@ button {
     -webkit-border-radius: 0px; 
     border-radius: 0px;
 }
-

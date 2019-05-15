@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Moodslider</title>
+        <title>Sky | Upload programmes</title>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>     
         <link href="https://www.sky.com/assets/masthead/images/favicon.png" sizes="32x32" rel="icon">
@@ -18,5 +18,6 @@ and open the template in the editor.
         <?php
         require_once("layout.html");
         ?>
+        
     </body>
 </html>
