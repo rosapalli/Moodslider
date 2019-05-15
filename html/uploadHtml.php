@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Sky | Upload programmes</title>
+        <title>Sky | Upload Content</title>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>  
         <script src="../js/upload.js" type="text/javascript"></script>
@@ -25,7 +25,7 @@ and open the template in the editor.
                 <form action=""
                       method="post"
                       enctype="multipart/form-data"
-                      id="uploadXML">
+                       id="uploadXML">
                     <input type="hidden"
                            name="MAX_FILE_SIZE"
                            value="10000000" />

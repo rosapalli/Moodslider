@@ -28,6 +28,7 @@ body {
     overflow-x: hidden;
     background-color: white; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, #DCDBDD, white, #DCDBDD); /* Standard syntax (must be last) */
+    padding-bottom: 40px; 
 }
 
 header {
@@ -38,6 +39,8 @@ header {
 
 footer {
     background-color: white;
+    box-shadow: 0 -5px 5px -5px #C4C3C6;
+    height: 40px;
 }
 
 /*LAYOUT*/
@@ -116,6 +119,11 @@ button {
     margin: auto;
 }
 
+.programeImage {
+    width: 200px;
+    border: solid 5px;
+    border-color:white;
+}
 .slidecontainer {
     padding-top: 20px;
     background-image: -webkit-linear-gradient(top left,#ff7100 20%,red 50%,#5400ff 80%);
@@ -162,6 +170,10 @@ button {
     min-height: 1px;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.programmeLabel {
+    margin: 10px;
 }
 
 .col-2dot4 {
@@ -218,7 +230,6 @@ button {
     appearance: none;
     border-radius: 5px;
     border-color: transparent;
-    margin-left: 5%;
     background-color: #0072c9;
     cursor: pointer;
     font-family: "Sky Text";

@@ -21,7 +21,6 @@ and open the template in the editor.
         <div>
             <form name="slider" id="slider" action="submit" method="get">
                 <div class="slidecontainer">
-
                     <div class="row">
                         <div class="col-2">
                             <div class="block">
@@ -79,25 +78,25 @@ and open the template in the editor.
         </div>
         <div class="row" id="programmes">
             <div class="col-2dot4">
-                <img style="width:200px" id="image1" src="../data/images/noContent.png" alt="">
-                <h4 id="programme1">No Content</h4>
+                <img class="programmeImage" id="image1" src="../data/images/noContent.png" alt="">
+                <h4 class="programmeLabel" id="programme1">No Content</h4>
 
             </div>
             <div class="col-2dot4">
-                <img style="width:200px" id="image2" src="../data/images/noContent.png" alt="">
-                <h4 id="programme2">No Content</h4>
+                <img class="programmeImage"id="image2" src="../data/images/noContent.png" alt="">
+                <h4 class="programmeLabel" id="programme2">No Content</h4>
             </div>
             <div class="col-2dot4">
-                <img style="width:200px" id="image3" src="../data/images/noContent.png" alt="">
-                <h4 id="programme3">No Content</h4>
+                <img class="programmeImage" id="image3" src="../data/images/noContent.png" alt="">
+                <h4 class="programmeLabel" id="programme3">No Content</h4>
             </div>
             <div class="col-2dot4">
-                <img style="width:200px" id="image4" src="../data/images/noContent.png" alt="">
-                <h4 id="programme4">No Content</h4>
+                <img class="programmeImage"id="image4" src="../data/images/noContent.png" alt="">
+                <h4 class="programmeLabel" id="programme4">No Content</h4>
             </div>
             <div class="col-2dot4">
-                <img style="width:200px" id="image5" src="../data/images/noContent.png" alt="">
-                <h4 id="programme5">No Content</h4>
+                <img class="programmeImage" id="image5" src="../data/images/noContent.png" alt="">
+                <h4 class="programmeLabel" id="programme5">No Content</h4>
             </div>
         </div>
     </body>
