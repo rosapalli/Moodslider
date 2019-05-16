@@ -16,21 +16,26 @@
                 </div>
                 <!--Logo -->
                 <div class="col-10" >
-                    <h2 id="landingTitle" onclick="location.href='html/moodsliderHtml.php'">How are you feeling today?</h2>
+                    <h2 id="landingTitle" onclick="location.href = 'html/moodsliderHtml.php'">How are you feeling today?</h2>
                 </div>
             </div>
         </header>
         <div id="landing">
             <h1 id="welcome"> Welcome to Moodslider</h1>
-            <button onmouseover="color(this)" onmouseout="colorUndo(this)" onclick="location.href='html/moodsliderHtml.php'">Get started ></button>
+            <button onmouseover="color(this)" onmouseout="colorUndo(this)" onclick="location.href = 'html/moodsliderHtml.php'">Get started ></button>
         </div>
         <script>
             function color(x) {
-            x.style.background = "#5496c9";
+                x.style.background = "#5496c9";
             }
             function colorUndo(x) {
                 x.style.background = "#0072c9";
             }
         </script>
+        <footer class="page-footer font-small fixed-bottom">
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <a href="https://github.com/rosapalli">Rosa Palli</a>
+            </div>
+        </footer>
     </body>
 </html>

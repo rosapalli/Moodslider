@@ -25,14 +25,17 @@ and open the template in the editor.
                 <form action=""
                       method="post"
                       enctype="multipart/form-data"
-                       id="uploadXML">
+                      id="uploadXML">
                     <input type="hidden"
                            name="MAX_FILE_SIZE"
                            value="10000000" />
                     <div class="custom-file">
                         <input id="myfile" type="file" name="myfile" class="custom-file-input" />
                         <label id="label" class="custom-file-label">Choose file</label>
-                        <input onmouseover="color(this)" onmouseout="colorUndo(this)" id="upload" type="submit" value="Upload"/>    
+                        <input onmouseover="color(this)" onmouseout="colorUndo(this)" id="upload" type="submit" value="Upload"/>  
+                        <div id="goToMoodslider" style="display: none;">
+                            <button onmouseover="color(this)" onmouseout="colorUndo(this)" onclick="location.href = 'html/moodsliderHtml.php'">Go to Moodslider></button>
+                        </div>
                     </div>
                 </form>
             </div>
