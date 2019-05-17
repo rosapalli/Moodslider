@@ -10,8 +10,8 @@ In addition you will need to provide a feature that will enable content data to 
 Download and extract Moodslider.zip
 
 ## Prerequisites
-PHP 7.0
-Google Chrome
+- PHP 7.0
+- Google Chrome
 
 ## Running the application
 - in terminal, navigate to the project directory
