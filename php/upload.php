@@ -20,7 +20,7 @@ function uploadXML() {
     }
 
     $tmpFile = $_FILES[InputKey]["tmp_name"];
-    $dstFile = "../data/uploads/" . $_FILES[InputKey]["name"];
+    $dstFile = "../data/uploads/programmesXML.xml";
     if (!move_uploaded_file($tmpFile, $dstFile)) {
         return "Unknown error. Please try again.";
     }
