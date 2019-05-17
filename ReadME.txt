@@ -11,8 +11,12 @@ Download and extract Moodslider.zip
 
 ## Prerequisites
 PHP 7.0
+Google Chrome
 
 ## Running the application
 - in terminal, navigate to the project directory
 - run php index.php 
+```bash
+php index.php
+```
 - upload programmesXML.xml (saved in the project root folder) to provide the application with content 
