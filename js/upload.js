@@ -13,13 +13,15 @@ $(document).ready(function () {
             cache: false,
             processData: false,
             success: function (data) {
-                if (data === "File uploaded successfully. Navigate to Moodslider to find programmes.") {
-                    $('#goToMoodslider').fadeIn();
+                console.log("'" + data + "'");
+                if ($.trim(data) === "1") {
+                    alert("File uploaded successfully. Click on OK to go to Moodslider.")
+                    window.location.href = "moodsliderHtml.php";
+                } else {
+                    alert(data);
                 }
-                alert(data);
             }
         });
-
     }));
 });
 

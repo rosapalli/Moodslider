@@ -76,7 +76,7 @@ footer {
     text-align: left;
     padding: 20px;
     color: white;
-    height: 100%;
+    height: 80%;
     background-image: -webkit-linear-gradient(right, #5400ff,red,#ff7100);
 }
 
@@ -249,4 +249,9 @@ button {
     -moz-border-radius: 0px; 
     -webkit-border-radius: 0px; 
     border-radius: 0px;
+}
+
+#notification {
+    margin:auto;
+    display: block;
 }

@@ -27,7 +27,7 @@ function uploadXML() {
     if (file_exists($tmpFile)) {
         unlink($tmpFile);
     }
-     return "File uploaded successfully. Navigate to Moodslider to find programmes.";
+     return 1;
 }
 
 $file = uploadXML();
