@@ -15,7 +15,7 @@ $(document).ready(function () {
             success: function (data) {
                 console.log("'" + data + "'");
                 if ($.trim(data) === "1") {
-                    alert("File uploaded successfully. Click on OK to go to Moodslider.")
+                    alert("File uploaded successfully. Click OK to go to Moodslider.")
                     window.location.href = "moodsliderHtml.php";
                 } else {
                     alert(data);
