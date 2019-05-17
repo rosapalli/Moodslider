@@ -13,7 +13,6 @@ Download and extract Moodslider.zip
 PHP 7.0
 
 ## Running the application
-- in the project folder, navigate to Moodslider/js and rename moodslider.txt and upload.txt to moodslider.js and upload.js
 - in terminal, navigate to the project directory
 - run php index.php 
 - upload programmesXML.xml (saved in the project root folder) to provide the application with content 
